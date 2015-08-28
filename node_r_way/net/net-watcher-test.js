@@ -19,7 +19,7 @@ const
 
 
         let timer = setTimeout(function() {
-            socket.write('.ext}' + '\n');
+            socket.write('.ext"}' + '\n');
             socket.end();
         }, 1000);
 
